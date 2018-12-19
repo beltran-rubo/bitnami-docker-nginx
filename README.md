@@ -28,9 +28,7 @@ $ docker-compose up -d
 * All our images are based on [minideb](https://github.com/bitnami/minideb) a minimalist Debian based container image which gives you a small base container image and the familiarity of a leading linux distribution.
 * All our images are daily released with the latest distribution packages available.
 
-[![Anchore](https://anchore.io/service/badges/image/ce813289727eff658da36d4ad024da30dcbffd1af3e3863b3846a1177ac8cca9)](https://anchore.io/image/dockerhub/bitnami%2Fnginx%3Alatest#security) 
-
-> The image overview badge contains a security report with all open CVEs. Click on 'Show only CVEs with fixes' to get the list of actionable security issues.
+> This [CVE scan report](https://quay.io/repository/bitnami/nginx?tab=tags) contains a security report with all open CVEs. Click on the 'latest' tag and 'Only show fixable CVEs' to get the list of actionable security issues.
 
 
 # How to deploy nginx in Kubernetes?
